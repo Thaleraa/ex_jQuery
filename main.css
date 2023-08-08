@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dbddda;
+    font-family: Roboto; sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    text-align: center;
+}
+
+form input {
+    background-color: #fff;
+}
+
+form input, button {
+    padding: 8px;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
+
+form {
+    text-align: center;
+}
+
+ul li {
+    flex-wrap: wrap;
+    text-align: center;
+    cursor: pointer;
+}
+
