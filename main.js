@@ -8,8 +8,8 @@ $(document).ready(function(){
         $(novoItem).appendTo('ul')
         $('#tarefa').val('')
 
-        $('ul').click (function(){
-            $('li').css({"text-decoration":"line-through"})
+        $('li').click (function(){
+        $(this).css({"text-decoration":"line-through"})
         })
         })
     })
